@@ -1,12 +1,12 @@
 
-# Use a lightweight Nginx web server
+# Use official Nginx image
 FROM nginx:alpine
 
-# Copy the HTML page into the Nginx web directory
+# Copy website into Nginx web directory
 COPY index.html /usr/share/nginx/html/index.html
 
 # Expose port 80
 EXPOSE 80
 
-# Start Nginx
+# Start Nginx server
 CMD ["nginx", "-g", "daemon off;"]

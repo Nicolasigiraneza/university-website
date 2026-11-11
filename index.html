@@ -1,34 +1,172 @@
+
 <!DOCTYPE html>
-<html>
-Jenkins CI/CD Practical Guide | HTML, VS Code, GitHub and Docker
+<html lang="en">
 <head>
- <title>My First CI/CD Project</title>
- <style>
- body {
- font-family: Arial, sans-serif;
- background-color: #f0f4f8;
- text-align: center;
- padding: 50px;
- }
- h1 {
- color: #2563eb;
- }
- p {
- font-size: 20px;
- }
- button {
- background-color: #2563eb;
- color: white;
- padding: 12px 25px;
- border: none;
- border-radius: 5px;
- }
- </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excellence University</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #12345a;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background: #087e8b;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #12345a, #087e8b);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            color: #12345a;
+            margin-bottom: 20px;
+        }
+
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .course {
+            background: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #00000015;
+        }
+
+        .contact {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #12345a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
+
 <body>
- <h1>Welcome to Our New Website!</h1>
- <p>This is my first CI/CD project using Jenkins.</p>
- <p>Developed using HTML and CSS.</p>
- <button>Learn More</button>
+
+    <header>
+        <h1>EXCELLENCE UNIVERSITY</h1>
+        <p>Knowledge, Innovation and Excellence</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Welcome to Excellence University</h2>
+        <p>Building Future Leaders Through Quality Education</p>
+    </section>
+
+    <section class="container" id="about">
+        <h2>About Us</h2>
+        <p>
+            Excellence University is committed to providing quality
+            higher education and developing skilled professionals.
+            We promote innovation, research, technology and
+            academic excellence.
+        </p>
+    </section>
+
+    <section class="container" id="courses">
+        <h2>Our Courses</h2>
+
+        <div class="courses">
+
+            <div class="course">
+                <h3>Information Technology</h3>
+                <p>Learn computing, networking and IT systems.</p>
+            </div>
+
+            <div class="course">
+                <h3>Software Engineering</h3>
+                <p>Develop modern software applications.</p>
+            </div>
+
+            <div class="course">
+                <h3>Computer Science</h3>
+                <p>Explore programming and computer systems.</p>
+            </div>
+
+            <div class="course">
+                <h3>Business Management</h3>
+                <p>Develop leadership and business skills.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container" id="contact">
+        <h2>Contact Information</h2>
+
+        <div class="contact">
+            <p><strong>Email:</strong> info@excellenceuniversity.edu</p>
+            <p><strong>Phone:</strong> +250 788 000 000</p>
+            <p><strong>Address:</strong> Kigali, Rwanda</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Excellence University. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
